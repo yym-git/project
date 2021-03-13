@@ -1,0 +1,50 @@
+server:
+  port: 8008
+
+#spring:
+#  application:
+#    name: service-product
+
+##数据库连接信息
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/bd_2020?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+#    username: root
+#    password: 123456
+#    driver-class: com.mysql.jdbc.Driver
+## naocs地址
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: 2d808414-8ca7-4526-8a83-bb266f55b5ad
+        metadata:
+          group: DEFAULT_GROUP
+          region: dev
+      config:
+        server-addr: localhost:8848
+        namespace: 2d808414-8ca7-4526-8a83-bb266f55b5ad
+        file-extension: yaml  #配置文件格式
+    sentinel:
+      transport:
+        port: 9999   # 跟控制台交流的端口，随意指定一个端口即可
+        dashboard: localhost:8081 # 指定控制台的地址
+      filter:
+        enabled: false #关闭sentinel的CommonFilter实例化
+
+# mybatis配置信息
+#mybatis:
+#      # mapper xml文件的位置
+#      mapper-locations: classpath:mapper/*.xml
+#      # 映射pojo所在的包
+#      type-aliases-package: shop.product.com.entity
+
+#seata配置
+seata:
+  application-id: ${spring.application.name}
+  tx-service-group: default
+  service:
+    vgroup-mapping:
+      default: default
+    grouplist:
+      default: 127.0.0.1:8091

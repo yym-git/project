@@ -1,0 +1,28 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  #nacos服务注册发现地址
+        namespace: 2d808414-8ca7-4526-8a83-bb266f55b5ad
+    gateway:
+      discovery:
+        locator:
+          enabled: true  # 开启让gateway从nacos中获取服务信息
+      routes:  #路由数组(当请求满足条件时，将请求转发到指定微服务上)
+        - id: service-product  #当前路由标识，要求唯一，默认是UUID
+#          uri:  http://localhost:8008/ #请求最终被转发的地址（不从nacos读取信息配置）
+          uri: lb://service-product # lb指从nacos中按照服务名获取微服务，并遵循负载均衡策略.service-product为具体服务标识
+          order: 1   #路由的优先级，数字越小，优先级越高
+          predicates: #断言，指定满足的条件
+            - Path=/product-serv/**
+            - Age=18,60 #Age为自定义断言，18<=age<=60
+          filters:     #过滤器（请求传递过程中，对请求做一些处理）
+            #假如原转发路径为 http://localhost:9001/product-serv/product/route
+            #去掉一层后的路径为 http://localhost:8008/product/1
+            - StripPrefix=1  # 去掉一层路径
+            - SetStatus=250  # 修改请求状态码 200修改为250
+            - Log=true,false  #自定义过滤器

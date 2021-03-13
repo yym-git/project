@@ -1,0 +1,7 @@
+server:
+  port: 8008
+spring:
+  application:
+    name: service-product
+  profiles:
+    active: dev

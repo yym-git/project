@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b408d2d-4dd4-41af-a1d7-032ba7d2e699" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o3R2iTN9G56wP4im7v6Hc6M4xG" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="D:/PersonDemon/spring-cloud-alibaba-2.1.2.RELEASE" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\shop-product\src\main\resources" />
+      <recent name="E:\project\shop-user\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Demeter">
+    <configuration name="Demeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gateway.com.design.Demeter" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gateway.com.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JVMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shop.user.com.test.JVMTest" />
+      <module name="shop-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shop.user.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shop.user.com.config.Test" />
+      <module name="shop-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shop.user.com.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationCommon" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.common.ApplicationCommon" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shop.product.com.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shop.product.com.ProductApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8100" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.common.ShopCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shop.user.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shop.user.com.ShopUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JVMTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Demeter" />
+      <item itemvalue="Spring Boot.ApplicationCommon" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.ProductApplication2" />
+      <item itemvalue="Spring Boot.ShopCommonApplication" />
+      <item itemvalue="Spring Boot.ShopUserApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demeter" />
+        <item itemvalue="Application.JVMTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Spring Boot.ShopUserApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.095925294" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b408d2d-4dd4-41af-a1d7-032ba7d2e699" name="Default Changelist" comment="" />
+      <created>1612513081561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612513081561</updated>
+      <workItem from="1612513082921" duration="4006000" />
+      <workItem from="1612517204251" duration="9304000" />
+      <workItem from="1612529467038" duration="891000" />
+      <workItem from="1612667522519" duration="17841000" />
+      <workItem from="1612688306263" duration="12624000" />
+      <workItem from="1612784684143" duration="14379000" />
+      <workItem from="1613393938456" duration="11333000" />
+      <workItem from="1613448476120" duration="13059000" />
+      <workItem from="1613468122379" duration="3120000" />
+      <workItem from="1613539529590" duration="1218000" />
+      <workItem from="1613803815533" duration="1462000" />
+      <workItem from="1613980434923" duration="8348000" />
+      <workItem from="1614046095296" duration="2764000" />
+      <workItem from="1614238726093" duration="2609000" />
+      <workItem from="1614909283540" duration="32000" />
+      <workItem from="1614909807329" duration="2000" />
+      <workItem from="1615117361900" duration="192000" />
+      <workItem from="1615117571534" duration="1616000" />
+      <workItem from="1615269482890" duration="7405000" />
+      <workItem from="1615344002392" duration="2638000" />
+      <workItem from="1615381800094" duration="342000" />
+      <workItem from="1615537264488" duration="2671000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612695679367">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1612695679367" />
+    <state x="390" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613399593642">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="390" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1613399593642" />
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1615284315837">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1615284315837" />
+    <state x="370" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612695641519">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="370" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1612695641519" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612681392715">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1612681392715" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1615560859424">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1615560859424" />
+    <state width="1046" height="63" key="GridCell.Tab.0.bottom" timestamp="1615357329481">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1046" height="63" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615357329481" />
+    <state width="1046" height="63" key="GridCell.Tab.0.center" timestamp="1615357329480">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1046" height="63" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615357329480" />
+    <state width="1046" height="63" key="GridCell.Tab.0.left" timestamp="1615357329479">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1046" height="63" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615357329479" />
+    <state width="1046" height="63" key="GridCell.Tab.0.right" timestamp="1615357329480">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1046" height="63" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615357329480" />
+    <state width="848" height="52" key="GridCell.Tab.1.bottom" timestamp="1613476793275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="848" height="52" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613476793275" />
+    <state width="848" height="52" key="GridCell.Tab.1.center" timestamp="1613476793275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="848" height="52" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1613476793275" />
+    <state width="848" height="52" key="GridCell.Tab.1.left" timestamp="1613476793275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="848" height="52" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1613476793275" />
+    <state width="848" height="52" key="GridCell.Tab.1.right" timestamp="1613476793275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="848" height="52" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1613476793275" />
+    <state width="1109" height="53" key="GridCell.Tab.2.bottom" timestamp="1613455919862">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1109" height="53" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613455919862" />
+    <state width="1109" height="53" key="GridCell.Tab.2.center" timestamp="1613455919862">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1109" height="53" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1613455919862" />
+    <state width="1109" height="53" key="GridCell.Tab.2.left" timestamp="1613455919862">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1109" height="53" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1613455919862" />
+    <state width="1109" height="53" key="GridCell.Tab.2.right" timestamp="1613455919862">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1109" height="53" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1613455919862" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1612522429338">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1612522429338" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1615117552523">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1615117552523" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1615381801167">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1615381801167" />
+    <state x="321" y="78" width="638" height="524" key="find.popup" timestamp="1614909306355">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="78" width="638" height="524" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1614909306355" />
+    <state x="56" y="41" key="new project wizard" timestamp="1615382125530">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="56" y="41" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1615382125530" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1613401082369">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1613401082369" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/gateway/filters/AuthGlobalFilter.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.12.RELEASE/spring-web-5.2.12.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java</url>
+          <line>410</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop-user/src/main/java/shop/user/com/service/impl/OrderInfoServiceImpl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.12.RELEASE/spring-web-5.2.12.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.2.12.RELEASE/spring-web-5.2.12.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java</url>
+          <line>809</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
